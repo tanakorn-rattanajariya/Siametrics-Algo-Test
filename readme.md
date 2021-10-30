@@ -140,7 +140,7 @@ But the second continuation byte does not start with 10, so it is invalid.
 Constraints:
 
 ```
-1 <= data.length <= 2 \* 104
+1 <= data.length <= 2 * 10^4
 0 <= data[i] <= 255
 ```
 
