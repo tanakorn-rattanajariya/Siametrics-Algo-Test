@@ -177,14 +177,14 @@ Input: 1 <= prices.length <= 10^5
 ```
 
 #### Question V
-There are ```n``` oranges in the kitchen and you decided to eat some of these oranges every day as follows:
+There are ```n``` apples in the kitchen and you decided to eat some of these apples every day as follows:
 
-Eat one orange.
-If the number of remaining oranges ```n``` is divisible by ```2``` then you can eat ```n / 2``` oranges.
-If the number of remaining oranges ```n``` is divisible by ```3``` then you can eat ```2 * (n / 3)``` oranges.
+Eat one apple.
+If the number of remaining apples ```n``` is divisible by ```2``` then you can eat ```n / 2``` apples.
+If the number of remaining apples ```n``` is divisible by ```3``` then you can eat ```2 * (n / 3)``` apples.
 You can only choose one of the actions per day.
 
-Given the integer ```n```, return the minimum number of days to eat ```n``` oranges.
+Given the integer ```n```, return the minimum number of days to eat ```n``` apples.
 
  
 
@@ -192,23 +192,23 @@ Given the integer ```n```, return the minimum number of days to eat ```n``` oran
 
 ```Input: n = 10
 Output: 4
-Explanation: You have 10 oranges.
-Day 1: Eat 1 orange,  10 - 1 = 9.  
-Day 2: Eat 6 oranges, 9 - 2*(9/3) = 9 - 6 = 3. (Since 9 is divisible by 3)
-Day 3: Eat 2 oranges, 3 - 2*(3/3) = 3 - 2 = 1. 
-Day 4: Eat the last orange  1 - 1  = 0.
-You need at least 4 days to eat the 10 oranges.
+Explanation: You have 10 apples.
+Day 1: Eat 1 apple,  10 - 1 = 9.  
+Day 2: Eat 6 apples, 9 - 2*(9/3) = 9 - 6 = 3. (Since 9 is divisible by 3)
+Day 3: Eat 2 apples, 3 - 2*(3/3) = 3 - 2 = 1. 
+Day 4: Eat the last apple  1 - 1  = 0.
+You need at least 4 days to eat the 10 apples.
 ```
 
 <b>Example 2:</b>
 
 ```Input: n = 6
 Output: 3
-Explanation: You have 6 oranges.
-Day 1: Eat 3 oranges, 6 - 6/2 = 6 - 3 = 3. (Since 6 is divisible by 2).
-Day 2: Eat 2 oranges, 3 - 2*(3/3) = 3 - 2 = 1. (Since 3 is divisible by 3)
-Day 3: Eat the last orange  1 - 1  = 0.
-You need at least 3 days to eat the 6 oranges.
+Explanation: You have 6 apples.
+Day 1: Eat 3 apples, 6 - 6/2 = 6 - 3 = 3. (Since 6 is divisible by 2).
+Day 2: Eat 2 apples, 3 - 2*(3/3) = 3 - 2 = 1. (Since 3 is divisible by 3)
+Day 3: Eat the last apple  1 - 1  = 0.
+You need at least 3 days to eat the 6 apples.
 ```
  
 
